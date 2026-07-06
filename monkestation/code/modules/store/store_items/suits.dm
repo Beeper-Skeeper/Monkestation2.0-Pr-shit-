@@ -301,6 +301,26 @@ GLOBAL_LIST_INIT(store_suits, generate_store_items(/datum/store_item/suit))
 	name = "Bartender's Tailcoat"
 	item_path = /obj/item/clothing/suit/jacket/tailcoat/bartender
 
+/datum/store_item/suit/jacket/research_director/tailcoat
+	name = "Research Director's Tailcoat"
+	item_path = /obj/item/clothing/suit/jacket/research_director/tailcoat
+
+/datum/store_item/suit/jacket/hop_tailcoat
+	name = "Head of Personnel's Tailcoat"
+	item_path = /obj/item/clothing/suit/armor/hop_tailcoat
+
+/datum/store_item/suit/jacket/cmo_tailcoat
+	name = "Chief Medical Officer's Tailcoat"
+	item_path = /obj/item/clothing/suit/toggle/labcoat/cmo_tailcoat
+
+/datum/store_item/suit/jacket/ce_tailcoat
+	name = "Chief Engineer's Tailcoat"
+	item_path = /obj/item/clothing/suit/utility/fire/ce_tailcoat
+
+/datum/store_item/suit/jacket/qm_tailcoat
+	name = "Quartermaster's Tailcoat"
+	item_path = /obj/item/clothing/suit/jacket/tailcoat/quartermaster
+
 /*
 *	FAMILIES
 */

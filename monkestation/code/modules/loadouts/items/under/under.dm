@@ -310,6 +310,31 @@ GLOBAL_LIST_INIT(loadout_miscunders, generate_loadout_items(/datum/loadout_item/
 	name = "Colorable Bunny Suit"
 	item_path = /obj/item/clothing/under/costume/playbunny
 
+/datum/loadout_item/under/miscellaneous/bunnysuit/rd
+	name = "Research Director's Bunny Suit"
+	item_path = /obj/item/clothing/under/rank/rnd/research_director/bunnysuit
+	restricted_roles = list(JOB_RESEARCH_DIRECTOR)
+
+/datum/loadout_item/under/miscellaneous/bunnysuit/hop
+	name = "Head of Personnel's Bunny Suit"
+	item_path = /obj/item/clothing/under/rank/civilian/hop_bunnysuit
+	restricted_roles = list(JOB_HEAD_OF_PERSONNEL)
+
+/datum/loadout_item/under/miscellaneous/bunnysuit/cmo
+	name = "Chief Medical Officer's Bunny Suit"
+	item_path = /obj/item/clothing/under/rank/medical/cmo_bunnysuit
+	restricted_roles = list(JOB_CHIEF_MEDICAL_OFFICER)
+
+/datum/loadout_item/under/miscellaneous/bunnysuit/ce
+	name = "Chief Engineer's Bunny Suit"
+	item_path = /obj/item/clothing/under/rank/engineering/chief_engineer/bunnysuit
+	restricted_roles = list(JOB_CHIEF_ENGINEER)
+
+/datum/loadout_item/under/miscellaneous/bunnysuit/qm
+	name = "Quartermaster's Bunny Suit"
+	item_path = /obj/item/clothing/under/rank/cargo/quartermaster_bunnysuit
+	restricted_roles = list(JOB_QUARTERMASTER)
+
 /datum/loadout_item/under/miscellaneous/hula
 	name = "Hula Skirt"
 	item_path = /obj/item/clothing/under/dress/hula

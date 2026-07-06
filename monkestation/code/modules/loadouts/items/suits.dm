@@ -301,6 +301,31 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 	item_path = /obj/item/clothing/suit/jacket/tailcoat/bartender
 	restricted_roles = list(JOB_BARTENDER)
 
+/datum/loadout_item/suit/jacket/research_director/tailcoat
+	name = "Research Director's Tailcoat"
+	item_path = /obj/item/clothing/suit/jacket/research_director/tailcoat
+	restricted_roles = list(JOB_RESEARCH_DIRECTOR)
+
+/datum/loadout_item/suit/armor/hop_tailcoat
+	name = "Head of Personnel's Tailcoat"
+	item_path = /obj/item/clothing/suit/armor/hop_tailcoat
+	restricted_roles = list(JOB_HEAD_OF_PERSONNEL)
+
+/datum/loadout_item/suit/toggle/labcoat/cmo_tailcoat
+	name = "Chief Medical Officer's Tailcoat"
+	item_path = /obj/item/clothing/suit/toggle/labcoat/cmo_tailcoat
+	restricted_roles = list(JOB_CHIEF_MEDICAL_OFFICER)
+
+/datum/loadout_item/suit/jacket/utility/fire/ce_tailcoat
+	name = "Chief Engineer's Tailcoat"
+	item_path = /obj/item/clothing/suit/utility/fire/ce_tailcoat
+	restricted_roles = list(JOB_CHIEF_ENGINEER)
+
+/datum/loadout_item/suit/jacket/quartermaster/tailcoat
+	name = "Quartermaster's Tailcoat"
+	item_path = /obj/item/clothing/suit/jacket/tailcoat/quartermaster
+	restricted_roles = list(JOB_QUARTERMASTER)
+
 /datum/loadout_item/suit/qm_jacket
 	name = "Quartermaster's Jacket"
 	item_path = /obj/item/clothing/suit/toggle/jacket/supply/head

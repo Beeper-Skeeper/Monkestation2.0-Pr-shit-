@@ -145,6 +145,31 @@ GLOBAL_LIST_INIT(loadout_necks, generate_loadout_items(/datum/loadout_item/neck)
 	name = "Colorable Bowtie Collar"
 	item_path = /obj/item/clothing/neck/tie/bunnytie/tied
 
+/datum/loadout_item/neck/bowtie_collar/rd
+	name = "Research Director's Bowtie Collar"
+	item_path = /obj/item/clothing/neck/tie/bunnytie/scientist/tied
+	restricted_roles = list(JOB_RESEARCH_DIRECTOR)
+
+/datum/loadout_item/neck/bowtie_collar/hop
+	name = "Head of Personnel's Bowtie Collar"
+	item_path = /obj/item/clothing/neck/tie/bunnytie/hop/tied
+	restricted_roles = list(JOB_HEAD_OF_PERSONNEL)
+
+/datum/loadout_item/neck/bowtie_collar/cmo
+	name = "Chief Medical Officer's Bowtie Collar"
+	item_path = /obj/item/clothing/neck/tie/bunnytie/cmo/tied
+	restricted_roles = list(JOB_CHIEF_MEDICAL_OFFICER)
+
+/datum/loadout_item/neck/bowtie_collar/ce
+	name = "Chief Engineer's Bowtie Collar"
+	item_path = /obj/item/clothing/neck/tie/bunnytie/ce/tied
+	restricted_roles = list(JOB_CHIEF_ENGINEER)
+
+/datum/loadout_item/neck/bowtie_collar/qm
+	name = "Quartermaster's Bowtie Collar"
+	item_path = /obj/item/clothing/neck/tie/bunnytie/cargo/tied
+	restricted_roles = list(JOB_QUARTERMASTER)
+
 /datum/loadout_item/neck/straw_coat
 	name = "Straw Coat"
 	item_path = /obj/item/clothing/neck/straw_coat

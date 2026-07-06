@@ -256,6 +256,26 @@ GLOBAL_LIST_INIT(store_miscunders, generate_store_items(/datum/store_item/under/
 	name = "Colorable Bunny Suit"
 	item_path = /obj/item/clothing/under/costume/playbunny
 
+/datum/store_item/under/miscellaneous/bunnysuit_rd
+	name = "Research Director's Bunny Suit"
+	item_path = /obj/item/clothing/under/rank/rnd/research_director/bunnysuit
+
+/datum/store_item/under/miscellaneous/bunnysuit_hop
+	name = "Head of Personnel's Bunny Suit"
+	item_path = /obj/item/clothing/under/rank/civilian/hop_bunnysuit
+
+/datum/store_item/under/miscellaneous/bunnysuit_cmo
+	name = "Chief Medical Officer's Bunny Suit"
+	item_path = /obj/item/clothing/under/rank/medical/cmo_bunnysuit
+
+/datum/store_item/under/miscellaneous/bunnysuit_ce
+	name = "Chief Engineer's Bunny Suit"
+	item_path = /obj/item/clothing/under/rank/engineering/chief_engineer/bunnysuit
+
+/datum/store_item/under/miscellaneous/bunnysuit_qm
+	name = "Quartermaster's Bunny Suit"
+	item_path = /obj/item/clothing/under/rank/cargo/quartermaster_bunnysuit
+
 /datum/store_item/under/miscellaneous/hula
 	name = "Hula Skirt"
 	item_path = /obj/item/clothing/under/dress/hula

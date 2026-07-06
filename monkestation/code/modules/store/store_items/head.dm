@@ -317,6 +317,31 @@ GLOBAL_LIST_INIT(store_head, generate_store_items(/datum/store_item/head))
 	item_path = /obj/item/clothing/head/playbunnyears
 	item_cost = 5000
 
+/datum/store_item/head/bunnyears/rd
+	name = "Research Director's Bunny Ears"
+	item_path = /obj/item/clothing/head/playbunnyears/rd
+	item_cost = 2500
+
+/datum/store_item/head/bunnyears/hop
+	name = "Head of Personnel's Bunny Ears"
+	item_path = /obj/item/clothing/head/playbunnyears/hop
+	item_cost = 2500
+
+/datum/store_item/head/bunnyears/cmo
+	name = "Chief Medical Officer's Bunny Ears"
+	item_path = /obj/item/clothing/head/playbunnyears/cmo
+	item_cost = 2500
+
+/datum/store_item/head/bunnyears/ce
+	name = "Chief Engineer's Bunny Ears"
+	item_path = /obj/item/clothing/head/playbunnyears/ce
+	item_cost = 2500
+
+/datum/store_item/head/bunnyears/qm
+	name = "Quartermaster's Bunny Ears"
+	item_path = /obj/item/clothing/head/playbunnyears/quartermaster
+	item_cost = 2500
+
 /datum/store_item/head/propeller_hat
 	name = "Rainbow Propeller Hat"
 	item_path = /obj/item/clothing/head/soft/propeller_hat

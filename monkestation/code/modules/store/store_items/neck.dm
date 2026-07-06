@@ -195,6 +195,26 @@ GLOBAL_LIST_INIT(store_neck, generate_store_items(/datum/store_item/neck))
 	name = "Colorable Bowtie Collar"
 	item_path = /obj/item/clothing/neck/tie/bunnytie/tied
 
+/datum/store_item/neck/bowtie_collar/rd
+	name = "Research Director's Bowtie Collar"
+	item_path = /obj/item/clothing/neck/tie/bunnytie/scientist/tied
+
+/datum/store_item/neck/bowtie_collar/hop
+	name = "Head of Personnel's Bowtie Collar"
+	item_path = /obj/item/clothing/neck/tie/bunnytie/hop/tied
+
+/datum/store_item/neck/bowtie_collar/cmo
+	name = "Chief Medical Officer's Bowtie Collar"
+	item_path = /obj/item/clothing/neck/tie/bunnytie/cmo/tied
+
+/datum/store_item/neck/bowtie_collar/ce
+	name = "Chief Engineer's Bowtie Collar"
+	item_path = /obj/item/clothing/neck/tie/bunnytie/ce/tied
+
+/datum/store_item/neck/bowtie_collar/qm
+	name = "Quartermaster's Bowtie Collar"
+	item_path = /obj/item/clothing/neck/tie/bunnytie/cargo/tied
+
 /datum/store_item/neck/straw_coat
 	name = "Straw Coat"
 	item_path = /obj/item/clothing/neck/straw_coat

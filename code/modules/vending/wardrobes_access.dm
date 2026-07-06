@@ -22,6 +22,24 @@
 		/obj/item/clothing/under/rank/captain/nova/imperial/generic/pants = 5,
 		/obj/item/clothing/under/rank/captain/nova/imperial/generic/red = 5,
 	)
+	contraband = list(
+		/obj/item/clothing/head/playbunnyears/ce = 1,
+		/obj/item/clothing/under/rank/engineering/chief_engineer/bunnysuit = 1,
+		/obj/item/clothing/suit/utility/fire/ce_tailcoat = 1,
+		/obj/item/clothing/neck/tie/bunnytie/ce = 1,
+		/obj/item/clothing/head/playbunnyears/cmo =1,
+		/obj/item/clothing/under/rank/medical/cmo_bunnysuit = 1,
+		/obj/item/clothing/suit/toggle/labcoat/cmo_tailcoat = 1,
+		/obj/item/clothing/neck/tie/bunnytie/cmo = 1,
+		/obj/item/clothing/head/playbunnyears/hop = 1,
+		/obj/item/clothing/under/rank/civilian/hop_bunnysuit = 1,
+		/obj/item/clothing/suit/armor/hop_tailcoat = 1,
+		/obj/item/clothing/neck/tie/bunnytie/hop = 1,
+		/obj/item/clothing/head/playbunnyears/rd = 1,
+		/obj/item/clothing/under/rank/rnd/research_director/bunnysuit = 1,
+		/obj/item/clothing/suit/jacket/research_director/tailcoat = 1,
+		/obj/item/clothing/neck/tie/bunnytie/rd = 1,
+	)
 
 /obj/item/vending_refill/wardrobe/comm_wardrobe
 	machine_name = "CommDrobe"
@@ -169,6 +187,10 @@
 		/obj/item/clothing/under/wonka = 1,
 		/obj/item/clothing/head/wonka = 1,
 		/obj/item/cane = 1,
+		/obj/item/clothing/head/playbunnyears/quartermaster = 1,
+		/obj/item/clothing/under/rank/cargo/quartermaster_bunnysuit = 1,
+		/obj/item/clothing/suit/jacket/tailcoat/quartermaster = 1,
+		/obj/item/clothing/neck/tie/bunnytie/cargo = 1,
 	)
 	refill_canister = /obj/item/vending_refill/wardrobe/cargo_wardrobe
 	default_price = /obj/machinery/vending/wardrobe::default_price

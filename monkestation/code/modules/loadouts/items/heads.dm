@@ -307,6 +307,31 @@ GLOBAL_LIST_INIT(loadout_helmets, generate_loadout_items(/datum/loadout_item/hea
 	name = "Colorable Bunny Ears"
 	item_path = /obj/item/clothing/head/playbunnyears
 
+/datum/loadout_item/head/bunnyears/rd
+	name = "Research Director's Bunny Ears"
+	item_path = /obj/item/clothing/head/playbunnyears/rd
+	restricted_roles = list(JOB_RESEARCH_DIRECTOR)
+
+/datum/loadout_item/head/bunnyears/hop
+	name = "Head of Personnel's Bunny Ears"
+	item_path = /obj/item/clothing/head/playbunnyears/hop
+	restricted_roles = list(JOB_HEAD_OF_PERSONNEL)
+
+/datum/loadout_item/head/bunnyears/cmo
+	name = "Chief Medical Officer's Bunny Ears"
+	item_path = /obj/item/clothing/head/playbunnyears/cmo
+	restricted_roles = list(JOB_CHIEF_MEDICAL_OFFICER)
+
+/datum/loadout_item/head/bunnyears/engineering
+	name = "Chief Engineer's Bunny Ears"
+	item_path = /obj/item/clothing/head/playbunnyears/ce
+	restricted_roles = list(JOB_CHIEF_ENGINEER)
+
+/datum/loadout_item/head/bunnyears/quartermaster
+	name = "Quartermaster's Bunny Ears"
+	item_path = /obj/item/clothing/head/playbunnyears/quartermaster
+	restricted_roles = list(JOB_QUARTERMASTER)
+
 /datum/loadout_item/head/propeller_hat
 	name = "Rainbow Propeller Hat"
 	item_path = /obj/item/clothing/head/soft/propeller_hat
